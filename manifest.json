@@ -1,7 +1,7 @@
 {
   "name": "SwitchOn Mental Math",
   "short_name": "SwitchOn",
-  "description": "Calcul mental gamifie pour enfants 5-12 ans",
+  "description": "Calcul mental gamifié pour enfants 5-12 ans · 4 langues · hors-ligne",
   "start_url": "/switchon-mental-math/",
   "scope": "/switchon-mental-math/",
   "display": "standalone",
@@ -9,7 +9,10 @@
   "background_color": "#F0F4FF",
   "theme_color": "#1565C0",
   "lang": "fr",
-  "categories": ["education", "kids"],
+  "categories": [
+    "education",
+    "kids"
+  ],
   "icons": [
     {
       "src": "icons/icon-192x192.png",
@@ -23,5 +26,29 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot_1_accueil.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/screenshot_2_tournoi.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/screenshot_3_round_end.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/screenshot_4_parent.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
 }

@@ -2,18 +2,13 @@ const CACHE_NAME = 'switchon-v2';
 const ASSETS = [
   './',
   './index.html',
-  './style.css',
-  './app.js',
   './manifest.json',
   './icons/icon-192x192.png',
-  './icons/icon-512x512.png',
-  './icons/logo.png'
+  './icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(CACHE_NAME).then(c => c.addAll(ASSETS))
-  );
+  e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
   self.skipWaiting();
 });
 

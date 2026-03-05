@@ -31,24 +31,26 @@
     {
       "src": "screenshots/screenshot_1_accueil.png",
       "sizes": "1080x1920",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "narrow"
     },
     {
       "src": "screenshots/screenshot_2_tournoi.png",
       "sizes": "1080x1920",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "narrow"
     },
     {
       "src": "screenshots/screenshot_3_round_end.png",
       "sizes": "1080x1920",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "narrow"
     },
     {
       "src": "screenshots/screenshot_4_parent.png",
       "sizes": "1080x1920",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "narrow"
     }
-  ],
-  "related_applications": [],
-  "prefer_related_applications": false
+  ]
 }
